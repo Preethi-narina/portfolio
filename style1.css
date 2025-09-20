@@ -72,13 +72,14 @@ nav { display: flex; justify-content: space-between; align-items: center; }
 .hero-text button {position: relative; font-weight: bold; margin: 10px 10px 0 0; padding: 10px 20px; border: none; background: #ff4c29; color: rgb(253, 251, 251); border-radius: 5px; cursor: pointer; transition: (0.3s); }
 .hero-text .btn-outline { background: transparent; border: 2px solid #f7ca4e; color: #dba480; }
 .hero-text button:hover { transform: scale(1.05); background: lch(63.81% 65.4 53.77); }
-.hero-img img { position: relative; border-radius: 50%; max-width: 250px; max-height: 350px;}
+.hero-img img { position: relative ; right: 10px; border-radius: 50%; max-width: 250px; max-height: 300px;}
 .hero-text1 button{  margin: 10px 10px 0 0; padding: 10px 20px; border: none;color: #13110b; cursor: pointer; transition: (0.3s); background-color: #e84321; border-radius: 5px; }
 .hero-text1 button:hover { transform: scale(1.05); background:aquamarine; }
 @media (max-width: 768px) {
   .hero-container {
     flex-direction: column-reverse;
     text-align: center;
+ 
   }
   .hero-text h1 { font-size: 2rem; }
   .hero-text h2 { font-size: 1.5rem; }
@@ -571,9 +572,9 @@ footer p {
   transition: 0.3s;
 }
 
-.linkedin-btn { background: #0a66c2;top: 230px;right: 300px; }
-.gmail-btn { background: #d93025; top: 230px; right:300px;}
-.github-btn { background: #24292e;top: 230px;right:300px; }
+.linkedin-btn { background: #0a66c2;top: 230px; }
+.gmail-btn { background: #d93025; top: 230px; right:190px;}
+.github-btn { background: #24292e;top: 230px;right:190px; }
 
 .footer-socials a:hover {
   transform: scale(1.1);
@@ -714,19 +715,19 @@ footer p {
 .github-btn {
     position: fixed;
     top: 530px; /* adjust this value to move it lower */
-    left: 400px; /* or right: 10px; depending on placement */
-    right: 160px;
+    left: 300px; /* or right: 10px; depending on placement */
+    right: 140px;
 }.linkedin-btn {
     position: fixed;
     top: 530px; /* adjust this value to move it lower */
-    left: 300px; /* or right: 10px; depending on placement */
-    right: 160px;
+    left: 200px; /* or right: 10px; depending on placement */
+    right: 140px;
 }
 .gmail-btn {
     position: fixed;
     top: 530px; /* adjust this value to move it lower */
-    left: 350px; /* or right: 10px; depending on placement */
-    right: 160px;
+    left: 250px; /* or right: 10px; depending on placement */
+    right: 140px;
 }
 
 .resume-btn {
@@ -744,8 +745,8 @@ footer p {
   font-weight: bold;
   transition: background-color 0.3s;
   position: relative;
-  top:5px;
- left: 8px;
+  top:2px;
+ left: 5px;
  right: 130px;
 }
 
